@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  header h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  #featured-events {
+    padding: 50px;
+  }
+  
+  #featured-events h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .event {
+    width: 30%;
+    float: left;
+    margin-right: 10%;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 40px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #qa-section {
+    padding: 50px;
+  }
+  
+  #qa-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .question {
+    margin-bottom: 40px;
+  }
+  
+  .question h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .question p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-top: 40px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }

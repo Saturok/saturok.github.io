@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Event Platform</title>
+    <link rel="stylesheet" type="text/css" href="C:\Webistes\Event Platform Website\style.css">
+    <form id="submit-question-form" action="submit-question.php" method="post">
+      <!-- form fields go here -->
+    </form>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Event Platform</h1>
+      <p>The ultimate platform for organizing and hosting events</p>
+    </header>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/video_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="qa-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="question">
+        <h3>What is the event about?</h3>
+        <p>The event is a platform for connecting with other event enthusiasts and sharing knowledge and ideas.</p>
+      </div>
+      <div class="question">
+        <h3>When and where is the event taking place?</h3>
+        <p>The event will take place on March 10, 2023 at the Main Conference Hall in Los Angeles.</p>
+      </div>
+      <div class="question">
+        <h3>Who can attend the event?</h3>
+        <p>Anyone who is interested in events and event planning can attend the event.</p>
+      </div>
+      <h2>Submit your own question</h2>
+      <form id="submit-question-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="question">Question:</label>
+        <textarea id="question" name="question" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <section id="featured-events">
+      <h2>Featured Events</h2>
+      <div class="event">
+        <img src="https://via.placeholder.com/300x200" alt="Event Image">
+        <h3>Event Title</h3>
+        <p>Event Description</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="event">
+        <img src="https://via.placeholder.com/300x200" alt="Event Image">
+        <h3>Event Title</h3>
+        <p>Event Description</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="event">
+        <img src="https://via.placeholder.com/300x200" alt="Event Image">
+        <h3>Event Title</h3>
+        <p>Event Description</p>
+        <a href="#">Learn More</a>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <p> 2023 Event Platform</p>
+  </footer>
+</html>
